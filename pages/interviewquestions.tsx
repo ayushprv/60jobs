@@ -250,9 +250,9 @@ const InterviewQuestionsPage = () => {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="/alljobs" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">All Jobs</a>
-              <a href="/interviewquestions" className="text-blue-600 font-medium border-b-2 border-blue-600">Interview Questions</a>
-              <a href="/pricing" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Pricing</a>
+              <a href="/index.tsx" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">All Jobs</a>
+              <a href="/interviewquestions.tsx" className="text-blue-600 font-medium border-b-2 border-blue-600">Interview Questions</a>
+              <a href="/pricing.tsx" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Pricing</a>
               <button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-full hover:shadow-lg transform hover:scale-105 transition-all duration-200 font-medium">
                 Subscribe
               </button>
