@@ -119,9 +119,9 @@ const PricingPage = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-black/30 backdrop-blur-lg border-t border-white/10">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">All Jobs</a>
-              <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">Interview Questions</a>
-              <a href="#" className="text-white font-semibold block px-3 py-2 text-base border-l-4 border-purple-400">Pricing</a>
+              <a href="/" className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">All Jobs</a>
+              <a href="/interviewquestions" className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">Interview Questions</a>
+              <a href="/pricing" className="text-white font-semibold block px-3 py-2 text-base border-l-4 border-purple-400">Pricing</a>
             </div>
           </div>
         )}
