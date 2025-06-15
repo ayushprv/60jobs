@@ -137,12 +137,12 @@ const JobsWebsite = () => {
 
             {/* Desktop Navigation - Always Visible */}
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-blue-600 font-semibold border-b-2 border-blue-600 pb-1 transition-all duration-300 hover:scale-105">All Jobs</a>
-              <a href="/interviewquestions" className="text-gray-700 hover:text-blue-600 transition-all duration-300 hover:scale-105 relative group">
+              <a href="/index.tsx" className="text-blue-600 font-semibold border-b-2 border-blue-600 pb-1 transition-all duration-300 hover:scale-105">All Jobs</a>
+              <a href="/interviewquestions.tsx" className="text-gray-700 hover:text-blue-600 transition-all duration-300 hover:scale-105 relative group">
                 Interview Questions
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="/pricing" className="text-gray-700 hover:text-blue-600 transition-all duration-300 hover:scale-105 relative group">
+              <a href="/pricing.tsx" className="text-gray-700 hover:text-blue-600 transition-all duration-300 hover:scale-105 relative group">
                 Pricing
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
