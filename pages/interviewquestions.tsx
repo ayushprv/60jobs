@@ -276,9 +276,9 @@ const InterviewQuestionsPage = () => {
           {isMenuOpen && (
             <div className="md:hidden bg-white border-t border-gray-200 py-4">
               <div className="flex flex-col space-y-4">
-                <a href="#" className="text-gray-700 hover:text-blue-600 font-medium px-4 py-2 transition-colors">All Jobs</a>
-                <a href="#" className="text-blue-600 font-medium px-4 py-2 border-l-4 border-blue-600">Interview Questions</a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 font-medium px-4 py-2 transition-colors">Pricing</a>
+                <a href="/" className="text-gray-700 hover:text-blue-600 font-medium px-4 py-2 transition-colors">All Jobs</a>
+                <a href="/interviewquestions" className="text-blue-600 font-medium px-4 py-2 border-l-4 border-blue-600">Interview Questions</a>
+                <a href="pricing" className="text-gray-700 hover:text-blue-600 font-medium px-4 py-2 transition-colors">Pricing</a>
               </div>
             </div>
           )}
