@@ -90,9 +90,9 @@ const PricingPage = () => {
             {/* Desktop Navigation */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">All Jobs</a>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">Interview Questions</a>
-                <a href="#" className="text-white font-semibold border-b-2 border-purple-400">Pricing</a>
+                <a href="index.tsx" className="text-gray-300 hover:text-white transition-colors duration-200">All Jobs</a>
+                <a href="/interviewquestions.tsx" className="text-gray-300 hover:text-white transition-colors duration-200">Interview Questions</a>
+                <a href="pricing.tsx" className="text-white font-semibold border-b-2 border-purple-400">Pricing</a>
               </div>
             </div>
 
