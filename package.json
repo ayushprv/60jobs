@@ -1,7 +1,7 @@
 {
   "name": "60jobs",
   "version": "1.0.0",
-  "private": true,
+  "description": "60Jobs website built with Next.js and TypeScript",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,13 +12,11 @@
     "next": "14.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "lucide-react": "^0.356.0"
+    "lucide-react": "^0.292.0"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "@types/react": "^18.2.15",
-    "@types/node": "^20.11.30",
-    "eslint": "8.57.0",
-    "eslint-config-next": "14.1.0"
+    "typescript": "^5.4.0",
+    "@types/react": "^18.2.37",
+    "@types/node": "^20.11.24"
   }
 }
